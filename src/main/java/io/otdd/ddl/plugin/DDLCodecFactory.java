@@ -24,7 +24,9 @@ public interface DDLCodecFactory extends ExtensionPoint {
 	public String getProtocolName();
 	
 	public String getPluginName();
-	
+
+	public String getPluginVersion();
+
 	public DDLDecoder getDecoder();
 	
 	public DDLEncoder getEncoder();
